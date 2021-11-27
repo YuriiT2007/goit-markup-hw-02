@@ -5,7 +5,6 @@ body{
     font-family: Roboto, sans-serif;
     background-color: white;
     letter-spacing: 0.03em;
-
 }
 /* -----------разметка boby and----------*/
 /*------------разметка nav----------*/
@@ -14,7 +13,7 @@ body{
 }
 .main-nav{
     color: #212121;
-    font-family: Raleway;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -27,16 +26,24 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.92;
+    line-height: 1.192;
     letter-spacing: 0.03em;
 }
-/* .logo{
+ /* .logoand{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em; */
+
+.logoand {
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.92;
-    letter-spacing: 0.03em; */
+    line-height: 1.192;
+    letter-spacing: 0.03em;
 }
 .logo>span{
     color: #2196F3;
@@ -47,12 +54,9 @@ body{
     line-height: 1.92;
     letter-spacing: 0.03em;
  }
-.logo_first{
-    
-}
 .stpoco{
-color:#212121;
-list-style: none;
+    color:#212121;
+    list-style: none;
 }
 .link{
     color: #212121;
@@ -74,6 +78,40 @@ list-style: none;
     color: #2196F3  
 }
 /*------------разметка nav----------*/
-/*------------разметка body----------*/
+/*------------разметка Шапка----------*/
+.solutions{
+    background-color: #2F303A;;
+}
+.solution-business{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+.ordservis{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------разметка Шапка----------*/
 background: #2F303A;
