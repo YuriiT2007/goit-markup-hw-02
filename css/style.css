@@ -1,0 +1,79 @@
+/* -----------разметка boby----------*/
+
+body{
+    color:#757575;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    letter-spacing: 0.03em;
+
+}
+/* -----------разметка boby and----------*/
+/*------------разметка nav----------*/
+.header-nav{
+    background-color: white;
+}
+.main-nav{
+    color: #212121;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.logoone{
+    color: #2196F3;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.92;
+    letter-spacing: 0.03em;
+}
+/* .logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.92;
+    letter-spacing: 0.03em; */
+}
+.logo>span{
+    color: #2196F3;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.92;
+    letter-spacing: 0.03em;
+ }
+.logo_first{
+    
+}
+.stpoco{
+color:#212121;
+list-style: none;
+}
+.link{
+    color: #212121;
+    text-decoration: none;  
+    letter-spacing: 0.02em;
+}
+.link:hover{
+    color: #2196F3
+}
+.contact{
+    list-style: none;
+}
+.contact .link{
+    color: #757575;
+    text-decoration: none; 
+    list-style: none;
+}
+.contact .link:hover{
+    color: #2196F3  
+}
+/*------------разметка nav----------*/
+/*------------разметка body----------*/
+
+background: #2F303A;
