@@ -7,27 +7,38 @@ body{
     letter-spacing: 0.03em;
 }
 /* -----------разметка boby and----------*/
+:root{
+    --main-bg-color:#FFFFFF;
+    --dg-sacond-color:#2F303A;
+    --text-main-color:#757575;
+    --hov-foc-color:#2196F3;
+    --hov-foc-exclusiv:#188CE8;
+    --text-dec-black:#212121;
+    --text-rgb-a:rgba(255, 255, 255, 0.6);
+    --text-bg-dop:#F5F4FA;
+
+}
+
 /*------------разметка nav----------*/
 .header-nav{
-    background-color: white;
+    background-color: var(--main-bg-color);
 }
 .main-nav{
-    color: #212121;
+    color: var(--text-dec-black);
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .logoone{
-    color: #2196F3;
+    color: var(--hov-foc-color);
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
+    
 }
  /* .logoand{
         font-family: Raleway;
@@ -39,79 +50,261 @@ body{
 
 .logoand {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
 }
 .logo>span{
-    color: #2196F3;
+    color: var(--hov-foc-color);
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.92;
     letter-spacing: 0.03em;
  }
 .stpoco{
-    color:#212121;
+    color: var(--text-dec-black);
     list-style: none;
 }
 .link{
-    color: #212121;
+    color: var(--text-dec-black);
     text-decoration: none;  
     letter-spacing: 0.02em;
 }
 .link:hover{
-    color: #2196F3
+    color: var(--hov-foc-color);
+}
+.link.current{
+    color: var(--hov-foc-color);
 }
 .contact{
     list-style: none;
 }
 .contact .link{
-    color: #757575;
+    color: var(--text-main-color);
     text-decoration: none; 
     list-style: none;
 }
-.contact .link:hover{
-    color: #2196F3  
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--hov-foc-color)
 }
-/*------------разметка nav----------*/
-/*------------разметка Шапка----------*/
+/*------------разметка nav and----------*/
+
+/*------------разметка solutions----------*/
 .solutions{
-    background-color: #2F303A;;
+    background-color: var(--dg-sacond-color);
+    letter-spacing: 0.06em;
+    text-align: center;
 }
 .solution-business{
-    color: #FFFFFF;
+    color: var(--main-bg-color);
     font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
-}
+    }
 .ordservis{
-    color: #FFFFFF;
-    font-style: normal;
+    color: var(--main-bg-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    cursor: pointer;
+    background-color: var(--hov-foc-color);
+    text-align: center;
+}
+.ordservis:hover,
+.ordservis:focus {
+    background-color:var(--hov-foc-exclusiv);
+}
+/*------------разметка  solutions and----------*/
+/*------------разметка vlastivosti----------*/
+.vlastivosti{
+    list-style: none;
+}
+.groop-pec {
+  /*-------other-------*/
+}
+.good-job{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+   
+}
+.exersise{
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1.71;
+    letter-spacing: 0.03em;
+}
+/*------------разметка vlastivosti and----------*/
+/*----------what-we-are-doing-------*/
+.doing{
+    /*-------other-------*/
+}
+.what-we-are-doing{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight:700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.doing-foto{
+    list-style: none;
+}
+/*----------what-we-are-doing and-------*/
+/*----------our-team-----------*/
+.our-team {
+    background: var(--text-bg-dop);
+}
+.together-team{
+    list-style: none; 
+    
+}
+.portfol{
+ /*-------other-------*/  
+}
+.name{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.prof{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+/*----------our-team and-----------*/
+/*----------footer-----------*/
+footer{
+    background: var(--dg-sacond-color);
+}
+.foot-link{
+    text-decoration: none;
+}
+.foot-logo{
+    color: var(--hov-foc-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+}
+.foot-logoand{
+    color: var(--main-bg-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+}
+.foot-logoand:hover,
+.foot-logoand:focus{
+    color: var(--hov-foc-color); 
+}
+.foot-address{
+    color: var(--main-bg-color);  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.foot-mail-tel{
+    list-style: none;
+}
+.foot-cont{
+    /*-------other-------*/
+}
+.foot-mail{
+/*-------other-------*/
+}
+   .foot-mail-com{
+    color: var(--text-rgb-a);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ }
+ .foot-mail-com:hover,
+ .foot-mail-com:focus{
+    color: var(--hov-foc-color);
+ }
+ .foot-tel-com{
+    color: var(--text-rgb-a);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ }
+ .foot-tel-com:hover,
+ .foot-tel-com:focus{
+    color: var(--hov-foc-color);
+ }
+
+/*----------footer and-----------*/
+/*-------portfolio work---------*/
+
+.ouer-work{
+    /*-------other-------*/
+}
+.our-work-done{
+    display: none;
+}
+.button-tipe{
+   background-color: var(--text-bg-dop);
+   
+}
+.but{
+    color: var(--text-dec-black);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.but:hover,
+.but:focus {
+    color: var(--main-bg-color);
+    background-color: var(--hov-foc-color);
+}
+/*----------after batton!!!!!!!!!-------*/
+.all-inf-teh{
+    list-style: none;
+    
+}
+.all-inf-teh-li{
+    /*-------other-------*/
+}
+.all-info{
+    text-decoration: none;
+}
+.know-how{
+    color: var(--text-dec-black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
+   
+    
+}
+.instrument-veb{
+    color: var(--text-main-color);
+    font-size: 16px;
+    line-height:1.87;
+    letter-spacing: 0.03em;
+    
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------разметка Шапка----------*/
-background: #2F303A;
+/*-------portfolio work---------*/
