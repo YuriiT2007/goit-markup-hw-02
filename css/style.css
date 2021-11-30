@@ -80,6 +80,9 @@ body{
 }
 .contact{
     list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .contact .link{
     color: var(--text-main-color);
@@ -121,8 +124,12 @@ body{
 }
 /*------------разметка  solutions and----------*/
 /*------------разметка vlastivosti----------*/
+.peculiar{
+    display:none;
+}
 .vlastivosti{
     list-style: none;
+    
 }
 .groop-pec {
   /*-------other-------*/
@@ -134,6 +141,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
    
 }
 .exersise{
